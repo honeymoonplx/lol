@@ -1,0 +1,55 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573174735756@s.whatsapp.net',
+    fromMe: false,
+    id: 'B3D0C221CDF988457A',
+    participant: undefined
+  },
+  messageTimestamp: 1695690340,
+  pushName: 'Brandon.',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'a', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'a',
+  from: '573174735756'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a3caafbb-9eb5-4839-9496-b56538f808d3',
+  keyword: 'key_bceca702-2373-4335-b0d8-c633847f9ac3',
+  answer: '🙌 Hola bienvenido a *DevBot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9fa1205d750fb6e8f2c6a67e5c53786e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a1c65aa8-0772-45be-9968-7add93820786',
+  keyword: 'ans_a3caafbb-9eb5-4839-9496-b56538f808d3',
+  answer: 'Te comparto los siguientes comandos de interes sobre el proyecto:\n' +
+    '🖤 ```chatbot``` 🖤             Para hablar con la IA\n' +
+    '🖤 ```discord``` 🖤             Para unirte al discord\n' +
+    '🖤 ```imagenes-ia``` 🖤    Proximamente....',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '15bdaf771b388eddbd7fd8331e1de6a7'
+}
